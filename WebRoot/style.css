@@ -1,0 +1,164 @@
+@CHARSET "UTF-8";
+body{
+	width:800px; 
+	margin:auto; 
+	padding:0; 
+	background:url(imge/bk%20.jpg);
+	background-size:100% 100%; 
+	background-repeat:no-repeat;
+	 }
+/*login*/
+.login{ height:200px;
+		width:300px; 
+		background-color:#CCC; 
+		opacity:0.5;
+		position: absolute;
+		left: 50%;
+        top: 50%;
+        margin-left: -150px;/*宽度值的负一半*/
+        margin-top: -100px;/*高度值的负一半*/
+		line-height:30px;
+		text-align:center;}
+
+/*----------------------------------------------------------*/
+
+/*register*/
+.register{	height:600px;
+			width:600px; 
+			background-color:#CCC; 
+			opacity:0.5;
+			position: absolute;
+			left: 50%;
+       		top: 50%;
+			margin-left: -300px;/*宽度值的负一半*/
+			margin-top: -300px;/*高度值的负一半*/
+			line-height:30px;
+			text-align:center;}
+
+/*------------------------------------------------------------*/
+/*index*/
+ul, li { list-style: none; }
+a { text-decoration: none; color: #555 }
+a:hover { text-decoration: none; color: #000; }
+nav{ width: 1000px; margin: auto; overflow: hidden; padding: 0 0 20px 0 }
+nav li { display: inline-block; float: left; padding-right:30px;text-align: center; overflow: hidden; line-height: 30px; }
+nav li a { color: #000;  }
+a#selected,nav li a:hover { font-weight:bold  }
+.mnav{ width:100%; background:#000; line-height:40px; height:40px; text-align:center;  position:fixed; bottom:0; display:none; z-index:9999999}
+.mnav li{ display:inline; padding:0 5px}
+.mnav li a{ color:#FFF}
+
+.l_box { width: 30%; float: left }
+.r_box { width: 68%; float: right }
+.l_box h2 { color: #333; font-size: 14px; line-height: 30px; padding-left: 20px; background: #fff }
+.l_box div { background: rgba(255,255,255,0.5); margin-bottom: 20px; overflow: hidden }
+.l_box div ul { padding: 10px; overflow: hidden }
+
+.about_me p { line-height: 24px; font-size: 14px }
+.about_me i { width: 120px; float: left; clear: left; margin-right: 10px; height: 120px; overflow: hidden }
+
+.wdxc li { width: 32%; overflow: hidden; float: left; height: 80px; margin-bottom: 2px; margin-right: 2px }
+.wdxc li img { height: 100%; min-height: 80px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+.wdxc li img:hover { transform: scale(1.05) }
+
+.l_box .search { border: 1px solid #000; background: #000; border-radius: 0 5px 5px 0; position: relative; }
+.search input .input_submit { border: 0; background: 0; color: #fff; outline: none; position: absolute; top: 10px; right: 8% }
+.search input.input_text { border: 0; line-height: 36px; height: 36px; width: 72%; padding-left: 10px; outline: none }
+
+
+.r_box li { background: rgba(255,255,255,0.8); padding: 15px; overflow: hidden; color: #797b7c; margin-bottom: 15px }
+.r_box li h3 { font-size: 16px; line-height: 25px; text-shadow: #FFF 1px 1px 1px }
+.r_box li h3 a { color: #222 }
+.r_box li h3 a:hover { color: #000; text-decoration: underline }
+.r_box li img { float: right; clear: right; width: 100%; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; }
+.r_box li i { width: 150px; display: block; max-height: 100px; overflow: hidden; float: right; margin-left: 20px }
+.r_box li p { margin: 20px 0 0 0; line-height: 22px; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2; }
+.r_box li:hover img { transform: scale(1.05) }
+.r_box li:hover h3 a { color: #19585d; }
+
+.pagelist { text-align: center; color: #666; width: 100%; clear: both; margin: 20px 0; padding-top: 20px }
+.pagelist a { color: #666; margin: 0 2px; border: 1px solid #fff; padding: 5px 10px; background: #FFF }
+.pagelist a:hover { color: #19585d; }
+.pagelist > b { border: 1px solid #000; padding: 5px 10px; }
+/*------------------------------------------------------------*/
+/*publish*/
+
+.mid{text-align:center;}
+.in{ width:60px; height:40px; background-color:#CCC;}
+.mid textarea{font-size:20px; color:#333; opacity:0.5;}
+/*---------------------------------------------------------------*/
+
+/*showArticle*/
+
+.article{ background-color:rgba(0,0,0,0.1); position:relative;}
+.author{ position:absolute; right:0px;}
+.comment{ background-color:rgba(0,0,0,0.3); position:relative;}
+.content2{ font-size:18px;color:#333;}
+xmp{white-space: pre-wrap;
+word-wrap: break-word;}
+
+
+/*--------------------------------------------------------------*/
+/*searchResult*/
+.searchcard li { background: rgba(255,255,255,0.8); padding: 15px; overflow: hidden; color: #797b7c; margin-bottom: 15px }
+.searchcard li h3 { font-size: 16px; line-height: 25px; text-shadow: #FFF 1px 1px 1px }
+.searchcard li h3 a { color: #222 }
+.searchcard li h3 a:hover { color: #000; text-decoration: underline }
+.searchcard li i { width: 150px; display: block; max-height: 100px; overflow: hidden; float: right; margin-left: 20px }
+.searchcard li p { margin: 20px 0 0 0; line-height: 22px; overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 2; }
+.searchcard li:hover img { transform: scale(1.05) }
+.searchcard li:hover h3 a { color: #19585d; }
+
+/*--------------------------------------------------------------*/
+
+/*-------------------------------------------------------------*/
+@charset "gb2312";
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+header{ width:96%; margin:auto}
+}
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+header,article{ width:96%; margin:auto}
+.picbox ul{    width: 23%;}
+.picshowlist{ display:none}
+.tuijian,.guanzhu{ width:270px; }
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+header,article{ width:96%; margin:auto}
+.picbox ul{    width: 23%;}
+.picshowlist{ display:none}
+.pagelist a { padding: 2px 3px;}
+}
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+header,article{ width:96%; margin:auto}
+.logo{  width:100%;text-align:center}
+nav{display:none}
+.mnav{ display:block}
+.l_box{ display:none}
+.r_box,.infosbox,.picsbox{ width:100%}
+.pagelist a { padding: 2px 3px;}
+.picbox ul{    width: 22%;}
+.picbox ul li i{ margin:5px}
+.picinfo{ display:none}
+.picshowlist{ display:none}
+.lmname,.view{ display:none}
+}
+@media only screen and (max-width: 479px) {
+header,article{ width:96%; margin:auto}
+.logo{ width:100%}
+.logo img{   margin:auto}
+nav{display:none}
+.mnav{ display:block}
+.l_box{ display:none}
+.r_box,.infosbox,.picsbox{ width:100%}
+.pagelist a { padding: 2px 3px; margin:0}
+.picbox ul{    width: 22%;}
+.piclistshow ul li{ height:100px; padding:0}
+.piclistshow .picimg{ height:100px}
+.picbox ul li i{ margin:2px}
+.picinfo{ display:none}
+.picshowlist,.pictxt{ display:none}
+.lmname,.view{ display:none}
+.r_box li i{ float:none; margin:0 auto 20px; width:100%; max-height:150px}
+}
+
+/*-------------------------------------------------------------*/
